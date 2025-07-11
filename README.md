@@ -74,3 +74,62 @@ public class MainActivity extends AppCompatActivity {
         </activity>
     </application>
 </manifest>
+casino-la-trinchera/
+├── app/
+│   ├── src/
+│   │   └── main/
+│   │       ├── java/com/example/casinolatrinchera/MainActivity.java
+│   │       ├── res/layout/activity_main.xml
+│   │       └── AndroidManifest.xml
+├── assets/
+│   ├── sonidos/
+│   └── imagenes/
+├── README.md
+├── Objetivo_Casino_La_Trinchera.pdf
+# 🎰 Casino La Trinchera
+
+App tragamonedas divertida y visual para Android. ¡Gira, gana y diviértete!
+
+---
+
+## 📄 Documento del Proyecto
+
+Puedes consultar los objetivos generales y específicos del proyecto aquí:  
+👉 [Objetivo_Casino_La_Trinchera.pdf](Objetivo_Casino_La_Trinchera.pdf)
+
+---
+
+## 📱 Descripción
+
+**Casino La Trinchera** es una app de entretenimiento tipo tragamonedas con sonidos, animaciones y monedas virtuales. Lista para Android, instalación local, GitHub y Play Store.
+
+---
+
+## 🧾 Características
+- 🎰 Botón de giro funcional
+- 🔊 Sonidos y animaciones tipo casino
+- 💰 Premios con monedas virtuales
+- 🛍️ Compatible con compras dentro de la app (opcional)
+- 📱 APK listo para compilar
+- 📣 Frase oficial: *Gira, gana y diviértete*
+
+---
+
+## 🧠 Objetivos del Proyecto
+
+Consulta el documento: 👉 [Objetivo_Casino_La_Trinchera.pdf](Objetivo_Casino_La_Trinchera.pdf)
+
+---
+
+## 🔧 Tecnologías
+- Android Studio + Java
+- XML para diseño visual
+- Compatible con formato APK o AAB
+
+---
+
+## 👤 Autor
+
+**Anderson Stiven Rojas Manrique**  
+GitHub: [`ander2025-afk`](https://github.com/ander2025-afk)  
+Correo: esteven201825@gmail.com
