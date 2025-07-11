@@ -39,3 +39,38 @@ Consulta los objetivos generales y específicos en el siguiente documento:
 Usuario GitHub: `ander2025-afk`  
 Correo: esteven201825@gmail.com
 MainActivity.java
+package com.example.casinolatrinchera;
+
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
+import androidx.appcompat.app.AppCompatActivity;
+import java.util.Random;
+
+public class MainActivity extends AppCompatActivity {
+    private ImageView slot1, slot2, slot3;
+    private TextView result, coins;
+    private int coinCount = 100;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        // Aquí va el resto del código...
+    }
+}
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.casinolatrinchera">
+
+    <application
+        android:label="Casino La Trinchera"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
